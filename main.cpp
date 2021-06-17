@@ -7,6 +7,8 @@ int main() {
 
     std::cout << test.getSize() << std::endl;
     std::cout << test.getInterval() << std::endl;
+    test.setSize(5);
+    std::cout << test.getSize() << std::endl;
 
     return 0;
 }
