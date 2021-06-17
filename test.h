@@ -19,6 +19,8 @@ class Test {
     void setVec(std::vector<int> vecIn);
     int getSize();
     std::vector<int> getVec();
+	void setInterval(double intervalIn);
+
 
 };
 

@@ -23,3 +23,7 @@ int Test::getSize() {
 std::vector<int> Test::getVec() {
     return vec;
 }
+
+void Test::setInterval(double intervalIn){
+	interval = intervalIn;
+}
