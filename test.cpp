@@ -3,6 +3,7 @@
 Test::Test() {
     size = 0;
     name = "N/A";
+    interval = 0.0;
 }
 
 Test::~Test() {}

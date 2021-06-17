@@ -10,6 +10,7 @@ class Test {
     int size;
     std::vector<int> vec;
     std::string name;
+    double interval;
 
     public:
     Test();
