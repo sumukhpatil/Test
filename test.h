@@ -20,6 +20,7 @@ class Test {
     int getSize();
     std::vector<int> getVec();
 	void setInterval(double intervalIn);
+    double getInterval();
 
 
 };
