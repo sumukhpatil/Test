@@ -27,3 +27,7 @@ std::vector<int> Test::getVec() {
 void Test::setInterval(double intervalIn){
 	interval = intervalIn;
 }
+
+double Test::getInterval() {
+    return interval;
+}
