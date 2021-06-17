@@ -12,3 +12,11 @@ void Test::setSize(int sizeIn) {
 void Test::setVec(std::vector<int> vecIn) {
     vec = vecIn;
 }
+
+int Test::getSize() {
+   return size;
+}
+
+std::vector<int> Test::getVec() {
+    return vec;
+}
