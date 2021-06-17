@@ -13,6 +13,7 @@ class Test {
 
     public:
     Test();
+    ~Test();
     void setSize(int sizeIn);
     void setVec(std::vector<int> vecIn);
     int getSize();

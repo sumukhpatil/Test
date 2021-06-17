@@ -5,6 +5,8 @@ Test::Test() {
     name = "N/A";
 }
 
+Test::~Test() {}
+
 void Test::setSize(int sizeIn) {
     size = sizeIn;
 }
